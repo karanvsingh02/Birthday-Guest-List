@@ -1,0 +1,20 @@
+body{
+    text-align:center;
+    background-image: url('Balloons_Gender_Neutral_863x485.jpg');
+    background-size: cover;
+}
+hr{
+    color:black;
+}
+button{
+    background-color: indianred;
+}
+#w_comma{
+    font-weight: bold;
+}
+#no_comma{
+    font-weight: bold;
+}
+#Abc{
+    font-weight: bold;
+}

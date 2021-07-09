@@ -1,0 +1,49 @@
+<html>
+    <head>
+     <title>Guest List</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Birthday Guests List</h1>
+
+        <input type="text" placeholder="Enter Guest's Name" id="Guest_name">
+        <button id="submit_btn" onclick="submit()">Submit</button>
+        <hr>
+
+        <div id="with_commas">
+            <p2 id="w_comma"></p2>
+        </div>
+        <br>
+
+        <hr>
+
+        <br>
+        <button id="show" onclick="show()">Show</button>
+        <br>
+        <div id="without_commas">
+            <p2 id="no_comma"></p2>
+        </div>
+        <br>
+
+        <hr>
+
+        <br>
+        <button id="alphabeticaly_sort" onclick="ABC_sort()">Sorted List</button>
+        <br>
+        <div id="alphabetical">
+            <p2 id="Abc"></p2>
+        </div>
+        <br>
+
+        <hr>
+        
+        <br>
+
+        <div id="search_name">
+            <input type="text" placeholder="Search a name" id="Search_name">
+            <button id="Search" onclick="search()">Search</button>
+            <p2 id="Search_response"></p2>
+        </div>
+    </body>
+</html>
